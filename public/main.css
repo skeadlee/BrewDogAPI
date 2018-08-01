@@ -1,6 +1,13 @@
-main{
-  width: 300px;
-  margin: 0 auto;
+body {
+  background: black;
+}
+
+h1 {
+  color: white;
+  padding-left: 35%;
+  padding-right: 40%;
+  font-family: 'Teko', sans-serif;
+  font-size: 7em;
 }
 
 input{
@@ -11,7 +18,29 @@ input{
   margin: 10px;
 }
 
-.album{
-  padding: 5px;
+li {
+  display: inline-block;
+  margin: 15px 15px 15px 15px;
+  padding-right: 75px;
+  padding-left: 75px;
+  height: 470px;
+  width: 151px;
+  background: white;
 }
 
+p {
+  height: 25px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+img {
+  height: 400px;
+  width: 100px;
+
+}
+
+.album {
+  padding: 5px;
+}
